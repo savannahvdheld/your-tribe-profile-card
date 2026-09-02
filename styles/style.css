@@ -7,7 +7,7 @@
 /* Dit verwijst naar het <html> element. De <html> krijgt een lichtgele achtergrond. */
 
 html {
-  background:lightyellow;
+  background:rgb(222, 61, 71);
 }
 
 /* BODY */
@@ -22,7 +22,7 @@ body {
   height: 100vh;
   
   font-family: open sans;
-  color: #10214e; /* de tekst kleur wordt in hex kleuren bepaald. */
+  color: #0e225a; /* de tekst kleur wordt in hex kleuren bepaald. */
 }
 
 /* ARTICLE */
@@ -39,15 +39,15 @@ article {
   justify-content: end;
   
   width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+  max-width: 45em;
+  min-width: 25 em;
   
   border-radius: 1rem;
-  background: rgb(0 239 255);
-  background: linear-gradient(0deg, rgb(0 239 255) 40%, #4e54c8 100%);
+  background: rgb(11, 50, 57);
+  background: linear-gradient(0deg, rgb(126, 26, 65) 40%, #1d1414 100%);
   box-shadow: 0 0 20px 20px rgb(0 0 0 / .1);
   
-  transition: .25s;
+  transition: .90s;
 }
 
 /* HEADER */
