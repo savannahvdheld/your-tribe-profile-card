@@ -45,7 +45,7 @@ article {
   border-radius: 1rem;
   background: rgb(11, 50, 57);
   background: linear-gradient(0deg, rgb(126, 26, 65) 40%, #1d1414 100%);
-  box-shadow: 0 0 20px 20px rgb(0 0 0 / .1);
+  box-shadow: 0 0 50px 20px rgb(0 0 0 / .1);
   
   transition: .90s;
 }
@@ -64,7 +64,7 @@ header {
 h1 {
   margin: 2rem 0 1rem 0; /* Margin is de ruimte om het element heen. Boven beginnen, met de klok mee */
   
-  color: rgb(0 239 255); /* De tekst kleur wordt in rgb() bepaald. */
+  color: rgb(222, 238, 239); /* De tekst kleur wordt in rgb() bepaald. */
 }
 
 /* Class */
@@ -72,7 +72,7 @@ h1 {
 /* Om een element met class te selecteren gebruik je een . in de selector */
 .slogan {
   font-size:1.25em;
-  color:#030711;
+  color:#e7eaf3;
 }
 
 /* BUTTON */
@@ -131,20 +131,19 @@ button svg:nth-of-type(2) {
   transition-delay: 0ms;
 }
 
-/* IMG */
-/* Hier krijgt het <img> element de styling. */
 img {
   position: relative;
   top: 2rem;
-  
-  width: 10em;
+  left: 10rem;
+
+  width: 10rem;
   height: auto;
   
   border: 5px solid #fff;
   border-radius: 10em;
   box-shadow: 0 0 2px 2px rgb(0 0 0 /.2);
   
-  transition: 1s .15s; /* Transition Shorthand notation: Transities op het img element duren 1 seconde en beginnen 0.15 seconde later */
+  transition: 1s .15s;
 }
 
 /* DL, DT, DD  */
