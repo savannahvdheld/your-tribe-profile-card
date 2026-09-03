@@ -37,7 +37,11 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  
+
+  display: flex;
+align-items: center;     /* vertical middle */
+justify-content: flex-start;  /* left side */
+
   width: 50vw;
   max-width: 45em;
   min-width: 25 em;
@@ -153,18 +157,25 @@ img {
 
 dl {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "html-dd css-dd js-dd"
-    "html-dt css-dt js-dt"
-    ;
-  justify-items: center;
-  align-items: start;
+grid-template-columns: 1fr;
+grid-template-areas:
+  "html-dd"
+  "html-dt"
+  "css-dd"
+  "css-dt"
+  "js-dd"
+  "js-dt";
+row-gap: 5px;
+justify-items: end;
+align-items: start;
+
+  justify-items: right;
+
   
   width: 100%;
-  margin-top: -3rem;
+  margin-top: 3rem;
   margin-bottom: 0;
-  padding: 5rem 0 3rem;
+  padding: 5rem 4rem 3rem;
   
   text-align: center;
   background: rgb(255 255 255);
@@ -214,7 +225,7 @@ p {
 article > p {
   width: 100%;
   margin-top: 0;
-  padding: 3rem 2rem;
+  padding: 3rem 6rem;
   
   background: rgb(255 255 255 / 0.5);
   border-radius: 0 0 1rem 1rem;
