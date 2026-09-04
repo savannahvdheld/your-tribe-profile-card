@@ -215,6 +215,7 @@ align-items: start;
 
 /* P */
 /* Hier krijgen alle <p> elementen een styling. */
+
 p {
   margin: 0;
 }
@@ -223,13 +224,14 @@ p {
 /* Met de 'Child combinator selector' selecteer je alle <p> elementen die een directe  kinderen van het <article> zijn. */
 /* Dit selecteert dus niet de <p> in de <header>. */
 article > p {
+
   width: 100%;
   margin-top: 0;
   padding: 3rem 6rem;
   
   background: rgb(255 255 255 / 0.5);
   border-radius: 0 0 1rem 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 /* Deze styles zijn van toepassing als op de knop wordt geklikt */
