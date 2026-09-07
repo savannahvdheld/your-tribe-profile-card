@@ -157,7 +157,7 @@ img {
 
 dl {
   display: grid;
-grid-template-columns: 1fr;
+grid-template-columns: 3fr;
 grid-template-areas:
   "html-dd"
   "html-dt"
@@ -170,7 +170,7 @@ font-size: medium;
 justify-items: end;
 align-items: start;
 
-  justify-items: right;
+  justify-items: center;
 
   
   width: 100%;
