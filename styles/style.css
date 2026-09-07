@@ -157,25 +157,26 @@ img {
 
 dl {
   display: grid;
-grid-template-columns: 3fr;
-grid-template-areas:
-  "html-dd"
-  "html-dt"
-  "css-dd"
-  "css-dt"
-  "js-dd"
-  "js-dt";
-row-gap: 5px;
-font-size: medium;
-justify-items: end;
-align-items: start;
-
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "html-dd css-dd js-dd"
+    "html-dt css-dt js-dt"
+    ;
   justify-items: center;
+  align-items: start;
+  
+  width: 100%;
+  margin-top: -3rem;
+  margin-bottom: 0;
+  padding: 5rem 0 3rem;
+  
+  text-align: center;
+  background: rgb(255 255 255);
 
   
   width: 100%;
   margin-top: 3rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   padding: 5rem 4rem 3rem;
   
   text-align: center;
